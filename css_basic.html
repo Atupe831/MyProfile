@@ -5,10 +5,25 @@
     <title> CSS</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="developer.png" type="image/x-icon">
-    <style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+<style>
             .head{
                 color: white;
                 background-color:chocolate;
+            }
+            #nav_bar,a{
+              font-size:22px;
+              font-weight: bold;
+               text-transform: uppercase; 
+               text-decoration: none;
+               font-family:"Sofia";
+            }
+            
+            .header_section{
+              text-align: center;
+              background-color: aquamarine;
             }
              
     </style>
@@ -16,6 +31,7 @@
 
     <body bgcolor="aquamarine">
        <header class="head">
+        <div class="header_section"> 
         
             <i class="fa fa-user-circle-o" aria-hidden="true"></i>&nbsp;Avinash Tupe
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -23,11 +39,11 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;avitupe870@gmail.com
         
-        </header>
+        </header></div>
                   <br>
-        <nav>
+        <nav id="nav_bar">
         
-            <a href="home.html" target="my frame">Home</a>
+            <a href="home.html" target="my frame" >Home</a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="techStack.html" target="my frame">Tech Stack</a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
