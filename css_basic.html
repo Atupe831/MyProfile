@@ -1,81 +1,111 @@
 <!DOCTYPE html>
 <html>
 
-   <head>
-    <title> CSS</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" href="developer.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
-<style>
-            .head{
-                color: white;
-                background-color:chocolate;
-            }
-            #nav_bar,a{
-              font-size:22px;
-              font-weight: bold;
-               text-transform: uppercase; 
-               text-decoration: none;
-               font-family:"Sofia";
-            }
-            
-            .header_section{
-              text-align: center;
-              background-color: aquamarine;
-            }
-             
-    </style>
-   </head>
+<head>
+  <title> CSS</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="developer.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+  <style>
+    .head {
+      color: white;
+      background-color: chocolate;
+    }
 
-    <body bgcolor="aquamarine">
-       <header class="head">
-        <div class="header_section"> 
-        
-            <i class="fa fa-user-circle-o" aria-hidden="true"></i>&nbsp;Avinash Tupe
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;9503332774
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;avitupe870@gmail.com
-        
-        </header></div>
-                  <br>
-        <nav id="nav_bar">
-        
-            <a href="home.html" target="my frame" >Home</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="techStack.html" target="my frame">Tech Stack</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="college.htm" target="my frame">Education</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="project.html" target="my frame">Project</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="gallary.html" target="my frame">Hobbies</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="personalDetail.html" target="my frame">Personal</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="#" target="my frame">Others</a>
-        </nav>
-               <br>
-        <section>
-               <iframe src="nat.jpg" height="500px" width="1000px" name="my frame"></iframe>
-        </section>
-        <footer>
-            <strong><i>Follow me</i></strong>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <a href="https://www.linkedin.com/login" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"
-                style="color:rgb(94, 94, 212);"></i></a>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"
-                style="color:rgb(94, 94, 212);"></i></a>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <a href="https://www.instagram.com/accounts/login/" target="_blank"><i class="fa fa-instagram"
-                aria-hidden="true" style="color:#8a3ab9;"></i></a>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <a href="https://www.google.co.in/" target="_blank"><i class="fa fa-google" aria-hidden="true"
-                style="color: rgb(236, 65, 65);"></i></a>
-       </footer>
-    </bodY>
+    #nav_bar,
+    a {
+       
+      font-size: 22px;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-family: "Sofia";
+    }
+
+    #nav_bar a {
+      margin-right: 40px;
+    }
+
+    .header_section {
+      text-align: center;
+      background-color: red;
+    }
+
+    body {
+      background-color: aliceblue;
+
+      background-attachment: center;
+      background-size: 1300px 1300px;
+    }
+
+    .box {
+      border: 1px;
+    }
+    footer .follow_me{
+      margin-right:50px;
+    }
+    footer #follow_me_lable{
+      font-size: large;
+      font-weight: bold;
+
+    }
+    .follow_size{
+      margin-right: 50px;
+
+    }
+  </style>
+</head>
+
+<body bgcolor="aquamarine">
+  <header class="head">
+    <div class="header_section">
+
+     <span class="follow_size"> <i class="fa fa-user-circle-o" aria-hidden="true">&nbsp;</i>Avinash Tupe</span>
+
+     <span class="follow_size"> <i class="fa fa-phone-square" aria-hidden="true">&nbsp;</i>9503332774</span>
+
+     <span class="follow_size"><i class="fa fa-envelope" aria-hidden="true">&nbsp;</i>avitupe870@gmail.com</span> 
+
+  </header>
+  </div>
+  <br>
+  <nav id="nav_bar">
+
+    <a href="home1.html" target="my frame">Home</a>
+    <a href="techStack.html" target="my frame">Tech Stack</a>
+    <a href="college.htm" target="my frame">Education</a>
+
+    <a href="project.html" target="my frame">Project</a>
+
+    <a href="gallary.html" target="my frame">Hobbies</a>
+
+    <a href="personalDetail.html" target="my frame">Personal</a>
+
+    <a href="#" target="my frame">Others</a>
+  </nav>
+  <br>
+  <section>
+    <iframe src="nat.jpg" height="500px" width="1000px" name="my frame"></iframe>
+  </section>
+  <footer>
+    <span id="follow_me_lable">Follow me</span> 
+     
+
+   <span class="follow_me" > 
+       <a href="https://www.linkedin.com/login" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"
+        style="color:rgb(94, 212, 114);"></i></a></span>
+
+    <span class="follow_me"> <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"
+        style="color:rgb(4, 0, 247);"></i></a></span>
+
+    <span class="follow_me"> <a href="https://www.instagram.com/accounts/login/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"
+        style="color:#e7008f;"></i></a></span>
+
+    <span class="follow_me"> <a href="https://www.google.co.in/" target="_blank"><i class="fa fa-google" aria-hidden="true"
+        style="color: rgb(236, 65, 65);"></i></a></span>
+  </footer>
+</bodY>
 
 </html>
