@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Login Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+
+    <style>
+        
+        form{
+            width: fit-content;
+            background-color: aqua;
+        }
+        label{
+            color: aqua;
+            font-size: large;
+            font-family: 'poppies',cursive;
+
+        }
+        td select option{
+            color: blue;
+            background-color: rgb(70, 40, 99);
+            font-family: 'Times New Roman', Times, serif;
+        }
+         
+        input[type="text"]{
+            color: rgb(250, 10, 10);
+            background: rgb(241, 135, 4);
+            width: 180px;
+            text-transform: uppercase;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+
+<body bgcolor="aqua">
+    <center>
+       <h2>Login form</h2>
+    </center>
+
+
+    <from>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <lable>first name</lable>
+                    </td>
+                    <td><input type="text" autofocus  required ></td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable>Last name</lable>
+                    </td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable>phone no</lable>
+                    </td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable>email</lable>
+                    </td>
+                    <td><input type="email" placeholder="abc@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable>password</lable>
+                    </td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable>graution</lable>
+                    </td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable>date of birth</lable>
+                    </td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable>passout year</lable>
+                    </td>
+                    <td><input type="date"></td>
+                </tr>
+                
+                <tr>
+                    <td><lable>country</lable></td>
+                    <td><input type="text"value="India" disabled></td>
+
+
+                </tr>
+                <tr>
+                    <td><lable>citizenship</lable></td>
+                    <td><input type="text" value="maharashatra"readonly></td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable>profile photo</lable>
+                    </td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                            <td>
+                                <lable>Upload all marksheet</lable>
+                            </td>
+                            <td><input type="file" multiple></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <lable>graduation</lable>
+                            </td>
+                            <td><select>
+                            <option>B.E</option>
+                            <option>Mca</option>
+                            <option>Bsc</option>
+                            <option>Mba</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Training</label></td>
+                            <td> 
+                            <input type="checkbox"><lable>Angular</lable>
+                            <input type="checkbox"><lable>react</lable>
+                            <input type="checkbox"><lable>java</lable>
+                            <input type="checkbox"><lable>testing</lable>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>select gender</td>
+                            <td><input type="radio" name="gender"><label>male</label></td>
+                            <td><input type="radio" name="gender"><label>female</label></td>
+                            <td><input type="radio" name="gender"><label>others</label></td>
+
+                        </tr>
+                <tr>
+                    <td>
+                        <lable>perment address</lable>
+                    </td>
+                    <td><textarea rows="6" cols="30"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit"></td>
+                    <td><input type="reset"></td>
+                </tr>
+                 
+            </tbody>
+        </table>
+
+
+    </from>
+
+</body>
+
+</html>
